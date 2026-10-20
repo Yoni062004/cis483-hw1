@@ -1,0 +1,8 @@
+HW1 notes
+
+- A 302 is a redirection status: the server does not return the page itself,
+  it tells the browser the resource lives at another address.
+- The fragment (for example #payment) is never sent to the server; the browser
+  keeps it and scrolls to the matching element id.
+- PATCH updates part of a resource; PUT replaces the whole resource.
+- 201 Created is more precise than 200 OK when a new resource is made.
